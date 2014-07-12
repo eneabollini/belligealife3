@@ -1,0 +1,359 @@
+/*
+Theme Name: My BIM
+Theme URI: h
+Author: the WordPress team
+Author URI: http://wordpress.org/
+Description: 
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: 
+Text Domain: mybim 
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+html{
+	position:relative;
+	width:100%;
+}
+body{
+	position:relative;
+	height:	auto !important;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:14px;
+	line-height:1.2em;
+}
+
+.bgstretcher {
+	overflow: hidden;
+	width: 100%;
+	position: fixed !important;
+	z-index: 0 !important;
+}
+
+	ul.bgstretcher, ul.bgstretcher LI {
+		position: fixed;
+		top: 0;
+		right: 0;
+		left: 0;
+		bottom: 0;
+		display:block;
+		width:100%;
+		height:100%;
+		z-index: 0 !important;
+		margin: 0 0 0 0;
+		padding: 0 0 0 0;
+	}
+	ul.bgstretcher UL, ul.bgstretcher LI {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	ul.bgstretcher, ul.bgstretcher LI img{
+		z-index:0 !important;
+		position:fixed;
+		display:block;
+	}
+
+ol, ul{
+	padding-left:14px;
+	padding-bottom:14px;
+}
+a, img{
+	border:none;
+}
+
+body{
+}
+
+/* INIZIO FONT */
+
+h1, h2, h3, h4, h5, h6{
+	font-weight:normal;
+	cursor:pointer;
+}
+h1, h1 a, h1 a:visited{
+	text-decoration:none;
+	display:block;
+	color:#076cb4 !important;
+}
+
+h3{
+	display:block;
+}
+
+a, a:visited, h3.firstHeading{
+	color:#076cb4 !important;
+	text-decoration:none;
+}
+
+/* FINE FONT */
+
+div.site{
+	margin:auto;
+	max-width:780px;
+	position:relative;
+	z-index:10;
+}
+
+div.site, div.site div{
+	position:relative;
+	z-index:10;
+}
+
+	div.site-header{
+		margin:auto;
+		max-width:280px;
+	}
+
+		div.site-header .header-main{
+			text-align:center;
+			padding-top:20px;
+		}
+
+	.site-main{
+	
+	}
+
+	.entry-content{
+		text-align:justify;
+	}
+	
+	img.attachment-thumbnail{
+		float:left;
+		display:block;
+	}
+	
+	
+/* INIZIO DEI TAG */
+
+/*
+a.email{
+	background:url(images/email.png);
+}
+a.mobile{
+	background:url(images/mobile.png);
+}
+a.tel{
+	background:url(images/tel.png);
+}h
+a.map{
+	background:url(images/map.png);
+}
+*/
+a.email, a.mobile, a.tel, input.map, a.menu{
+	width:30px;
+	height:30px;
+	display:inline;
+	background-color:#f1f1f1;
+}
+a.email img, a.mobile img, a.tel img, input.map{
+	padding:5px;
+}
+.icone{
+	border-bottom:2px solid #f1f1f1 !important;
+	position:relative;
+	z-index:2000;
+	padding-left:1%;
+	padding-right:0;
+	margin-left:0;
+	margin-right:0;
+	clear:none !important;
+	text-align:right;
+	margin-bottom:0;
+	min-height:30px;
+	height:auto !important;
+	min-height:30px;
+}
+
+
+/* FINE DEI TAG */
+
+
+/* INIZIO INDEX */
+
+#accordion img.wp-post-image{
+	margin:5px 5px 0 1%;
+	padding:0;
+	display:block;
+	float:left;
+	top:0;
+	left:0;
+	z-index:300;
+	position:relative;
+	background:#f1f1f1;
+}
+
+#accordion{
+}
+
+#accordion h3.titoletto{
+	width:88%;
+	margin: 5px auto;
+	background:url(images/v.png);
+	padding-bottom:7px;
+	text-align:left;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top:21px;
+	text-transform:uppercase;
+}
+#accordion h3 span{
+}
+
+	#accordion h3:hover, #accordion h3:active{
+		color:#076cb4 !important;
+	}
+
+#accordion .child1 h3{
+	background:url(images/y.png);
+}
+
+#accordion .child2 h3{
+	background:url(images/o.png);
+}
+
+#accordion .child3 h3{
+	background:url(images/r.png);
+}
+
+	.ui-accordion-content-active{
+		margin:0 0 0 0 !important;
+		padding:0 0 0 0 !important;
+	}
+
+	h1.entry-title{
+		text-transform:uppercase;
+		padding: 0 14px;
+		display:inline;
+	}
+	h1.entry-title a{
+		color:#000000 !important;
+	}
+	h1.entry-title a:hover{
+		color:#076cb4 !important;
+	}
+	.traspa{
+		clear:both;
+		background:url(images/v.png);
+		margin: auto !important;
+		position:relative;
+		width:90%;
+		min-height:70px;
+		height:auto !important;
+		height:70px;
+	}
+
+.child1 div, .child2 div, .child3 div{
+	clear:both;
+}
+
+/* FINE INDEX */
+
+/* INIZIO PAGINA SINGOLA */
+
+.tag_sopra{
+	position:fixed;
+	bottom:0;
+	left:0;
+	z-index:500;
+	width:96%;
+	height:30px;
+	padding-bottom:14px;
+	margin-left:2%;
+	margin-right:2%;
+	border-bottom:3px solid #f1f1f1;
+}
+
+.gallery{
+	padding-top:30px;
+}
+
+/* FINE PAGINA SINGOLA */
+
+
+
+
+
+	#control {
+/*		padding: 5px;
+		padding-bottom:10px;
+		background:#ffffff;
+		box-shadow: 0 2px 2px rgba(33, 33, 33, 0.4);
+		display: none;
+		color:#231f20;
+		width:346px;
+		height:54px;
+		left:0;
+*/
+		width:200px;
+		height:200px;
+	}
+		#control h3{
+			line-height:18px !important;
+			height:20px !important;
+			padding-left:22px;
+			padding-top:5px;
+		}
+		
+	#control input{
+	margin:0 !important;
+	padding:0 !important;
+	}
+	*#control input.calcola{
+		margin-left:24px !important;
+	}
+	.adp-legal{
+		height:40px;
+		line-height:40px;
+		margin-bottom:20px;
+	}
+	#directions-panel{
+		margin:auto;
+		padding-left:0 !important;
+		padding-right:0 !important;
+	}
+
+
+@media print {
+	#map-canvas {
+		height: 500px;
+		margin: 0;
+	}
+	
+	#directions-panel {
+		float: none;
+		width: auto;
+	}
+}
+
+
+img.alignleft{
+	display:block;
+	float:left;
+}
+img.alignright{
+	display:block;
+	float:right;
+}
+img.aligncenter{
+	display:block;
+	margin:auto;
+}
+
+
+.site-content div.main-content{
+	text-align:left !important;
+	margin:2% 2% 5px 2%;
+	padding:3% 3% 40px 3%;
+	background:url(images/v.png);
+}
