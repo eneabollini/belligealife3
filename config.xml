@@ -28,7 +28,6 @@
 
 
 
-
 	<gap:plugin name="org.apache.cordova.battery-status" version="0.2.7" />
 	<gap:plugin name="org.apache.cordova.camera" version="0.2.9" />
 	<gap:plugin name="org.apache.cordova.console" version="0.2.7" />
