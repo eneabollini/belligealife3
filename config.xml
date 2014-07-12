@@ -70,8 +70,6 @@
     <access origin="*" />
 
 	<feature name="debug-server" required="false">
-		<param name="domain" value="http://localhost:8080"/>
-		<param name="key" value="[ a unique id for your app ]"/>
 	</feature>
 
 
