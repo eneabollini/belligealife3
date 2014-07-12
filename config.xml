@@ -66,7 +66,6 @@
     <gap:splash gap:platform="ios" height="768" src="res/screen/ios/screen-ipad-landscape.png" width="1024" />
     <gap:splash gap:platform="winphone" src="res/screen/windows-phone/screen-portrait.jpg" />
 	<gap:plugin name="com.teamnemitoff.phonedialer" version="0.3.0" />
-	<gap:plugin name="com.jamiestarke.webviewdebug" version="1.0.8" />
     <access origin="*" />
 	
 </widget>
