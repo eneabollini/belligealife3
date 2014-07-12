@@ -2,7 +2,7 @@
 <widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>belligeaLIFE</name>
     <description>
-        L-app dedicata a Bellaria Igea Marina
+        L'app dedicata a Bellaria Igea Marina
     </description>
     <author email="support@phonegap.com" href="http://phonegap.com">
         belligeaNews
@@ -67,5 +67,9 @@
     <gap:splash gap:platform="winphone" src="res/screen/windows-phone/screen-portrait.jpg" />
 	<gap:plugin name="com.teamnemitoff.phonedialer" version="0.3.0" />
     <access origin="*" />
-	
+
+	<feature name="debug-server" required="false"></feature>
+
+
+
 </widget>
