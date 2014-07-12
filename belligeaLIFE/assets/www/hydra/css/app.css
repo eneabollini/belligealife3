@@ -1,0 +1,101 @@
+html {
+    font-size: 10px;
+    background-color: #333;
+    font-family: Tahoma, sans-serif;
+}
+
+.modal {
+    padding: 1em;
+    width: 90%;
+}
+
+.modal h1 {
+    padding: 0px;
+    margin: 0px;
+    font-size: 3em;
+    color: #fff;
+}
+
+.modal h2 {
+    font-size: 2em;
+    font-weight: 400;
+    color: #ccc;
+}
+
+.modal .options {
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+    left: 1em;
+}
+
+.modal .options .button {
+    margin: 0.1em auto;
+    background-color: #333;
+    color: #fff;
+    border-style: solid;
+    border-color: #666;
+    border-width: 1px 0px 0px 0px;
+    padding: 1em;
+}
+
+.modal .options .button .title {
+    font-size: 2em;
+}
+
+.modal .options .button .explanation {
+    padding-top: 0.2em;
+    font-size: 1em;
+    color: #ccc;
+}
+
+.modal .options .button:hover {
+    background-color: #ccc;
+    border-color: #000;
+}
+
+.modal .options .button:hover .title {
+    color: #000;
+}
+
+.modal .options .button:hover .explanation {
+    color: #666;
+}
+
+#download {
+    padding-top: 3em;
+}
+
+.modal .progress-container {
+    box-shadow: inset 3px 5px 6px #ccc;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 1px;
+    height: 1.8em;
+    border-radius: 3px;
+    background-color: #fff;
+}
+
+.modal .progress-container .indicator {
+    border-radius: 3px;
+    margin-top: 0.2em;
+    height: 1.4em;
+    width: 0%;
+    opacity: 0.6;
+    background-color: blue;
+
+}
+
+p {
+    font-size: 1.5em;
+    color: #fff;
+    margin-top: 1em;
+    padding: 1em;
+}
+
+p.error {
+    border-style: solid;
+    background-color: red;
+    border-width: 1px;
+    border-radius: 3px;
+}

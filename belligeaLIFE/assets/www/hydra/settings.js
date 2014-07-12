@@ -1,0 +1,1 @@
+define([], function() { return {"time_built":"2014-07-09T15:38:25+00:00","id":999745,"host":"https://build.phonegap.com","authToken":"4vfc4kvDqEzqzEdMrdiX"} });
