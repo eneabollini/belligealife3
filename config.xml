@@ -18,25 +18,24 @@
 	<gap:platform name="ios" />
 	<gap:platform name="android" />
 	<gap:platform name="winphone" />
-	<gap:platform name="blackberry10" />
 
 
 
 
 	<preference name="phonegap-version" value="3.4.0" />
-	<preference name="fullscreen" value="false" />
+	<preference name="fullscreen" value="true" />
 	<preference name="target-device" value="universal" /> 
 	<preference name="prerendered-icon" value="true" />
     <preference name="orientation" value="default" />
     <preference name="target-device" value="universal" />
     <preference name="fullscreen" value="true" />
-    <preference name="webviewbounce" value="false" />
+    <preference name="webviewbounce" value="true" />
     <preference name="stay-in-webview" value="true" />
     <preference name="ios-statusbarstyle" value="black-opaque" />
     <preference name="detect-data-types" value="true" />
     <preference name="exit-on-suspend" value="false" />
     <preference name="show-splash-screen-spinner" value="true" />
-    <!--preference name="auto-hide-splash-screen" value="true" /-->
+    <preference name="auto-hide-splash-screen" value="true" />
     <preference name="disable-cursor" value="false" />
     <preference name="android-minSdkVersion" value="7" />
     <preference name="android-installLocation" value="auto" />
